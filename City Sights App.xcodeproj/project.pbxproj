@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC343A5229E689860091F0EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC343A5129E689860091F0EE /* Constants.swift */; };
 		EC69AFF829DF14D700A56B42 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69AFF729DF14D700A56B42 /* ContentModel.swift */; };
 		EC7DAE7629DE852F00186D32 /* CitySightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7DAE7529DE852F00186D32 /* CitySightsApp.swift */; };
 		EC7DAE7829DE852F00186D32 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7DAE7729DE852F00186D32 /* LaunchView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC343A5129E689860091F0EE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EC69AFF729DF14D700A56B42 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		EC7DAE7229DE852F00186D32 /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7DAE7529DE852F00186D32 /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC343A5029E689710091F0EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC343A5129E689860091F0EE /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EC7DAE6929DE852F00186D32 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 				EC7DAE8429DE856F00186D32 /* ViewModels */,
 				EC7DAE8329DE856900186D32 /* Models */,
 				EC7DAE7929DE853000186D32 /* Assets.xcassets */,
+				EC343A5029E689710091F0EE /* Helpers */,
 				EC7DAE7B29DE853000186D32 /* Preview Content */,
 			);
 			path = "City Sights App";
@@ -167,6 +178,7 @@
 				EC7DAE7829DE852F00186D32 /* LaunchView.swift in Sources */,
 				EC7DAE7629DE852F00186D32 /* CitySightsApp.swift in Sources */,
 				EC69AFF829DF14D700A56B42 /* ContentModel.swift in Sources */,
+				EC343A5229E689860091F0EE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
